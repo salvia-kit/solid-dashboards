@@ -1,0 +1,40 @@
+/* SIDEBAR */
+
+.sidebar::-webkit-scrollbar {
+  width: 0;
+  background: transparent; /* hide sidebar scrollbar on Chrome, Opera and other webkit Browsers*/
+}
+
+/* hide sidebar scrollbar on Firefox, IE and Edge*/
+.sidebar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* DASHBOARD LAYOUT */
+
+.background{
+  background-image: url("./mac.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  background-color: rgba(16 18 27 / 40%);
+  backdrop-filter: blur(24px);
+}
+
+.main {
+  color: #f9fafb;
+  background-color: rgba(16 18 27 / 40%);
+}
+
+.main::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 10px;
+}
+
+.main::-webkit-scrollbar-thumb {
+  background: rgb(1 2 3 / 40%);
+  border-radius: 10px;
+}
